@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="kadai07_tableview" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="LadyBook" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RuK-pz-ogA">
+                                <rect key="frame" x="107.5" y="150" width="160" height="45"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="160" id="aHb-g6-beN"/>
+                                    <constraint firstAttribute="height" constant="45" id="zoO-FQ-B0O"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="AppleColorEmoji" family="Apple Color Emoji" pointSize="30"/>
+                                <color key="textColor" red="0.27306075507614214" green="0.27306075507614214" blue="0.27306075507614214" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <size key="shadowOffset" width="1" height="1"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Onna no Jinseizukan" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kda-dA-Un7">
+                                <rect key="frame" x="122.5" y="200" width="130" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="MEY-Sp-0tD"/>
+                                    <constraint firstAttribute="width" constant="130" id="Ta6-SQ-akv"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="16"/>
+                                <color key="textColor" red="0.18063927660000001" green="0.18063927660000001" blue="0.18063927660000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rVP-EG-7Kg">
+                                <rect key="frame" x="152.5" y="415" width="70" height="70"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="70" id="4KY-eG-gqZ"/>
+                                    <constraint firstAttribute="height" constant="70" id="ZfE-e3-Odv"/>
+                                </constraints>
+                                <state key="normal" image="flower_ Highheels"/>
+                                <connections>
+                                    <segue destination="Ygh-O3-N5G" kind="presentation" id="qId-tv-kOs"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Read me" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ROF-SX-AT3">
+                                <rect key="frame" x="155" y="375" width="65" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="FVB-Zv-KLK"/>
+                                    <constraint firstAttribute="width" constant="65" id="diA-Og-juJ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="SavoyeLetPlain" family="Savoye LET" pointSize="20"/>
+                                <color key="textColor" red="0.18063927660000001" green="0.18063927660000001" blue="0.18063927660000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="highlightedColor" red="0.2730607551" green="0.2730607551" blue="0.2730607551" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <size key="shadowOffset" width="2" height="1"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.78119027703758048" green="1" blue="0.99374550554270824" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="RuK-pz-ogA" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="150" id="3GF-3n-1gh"/>
+                            <constraint firstItem="kda-dA-Un7" firstAttribute="top" secondItem="RuK-pz-ogA" secondAttribute="bottom" constant="5" id="ABi-5z-OXz"/>
+                            <constraint firstItem="RuK-pz-ogA" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Kgu-9h-otT"/>
+                            <constraint firstItem="kda-dA-Un7" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="PJw-gD-zzO"/>
+                            <constraint firstItem="ROF-SX-AT3" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Pj6-sl-AR4"/>
+                            <constraint firstItem="rVP-EG-7Kg" firstAttribute="top" secondItem="ROF-SX-AT3" secondAttribute="bottom" constant="10" id="T8G-51-Ug3"/>
+                            <constraint firstItem="rVP-EG-7Kg" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="jlK-Dx-fQg"/>
+                            <constraint firstItem="ROF-SX-AT3" firstAttribute="top" secondItem="kda-dA-Un7" secondAttribute="bottom" constant="145" id="p6l-16-V1M"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-58.399999999999999" y="103.89805097451276"/>
+        </scene>
+        <!--Second View Controller-->
+        <scene sceneID="GH5-xh-ciO">
+            <objects>
+                <viewController id="fso-1S-nJg" customClass="SecondViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="efz-Mg-yVp">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="4Ah-Uw-jCL">
+                                <rect key="frame" x="16" y="56" width="343" height="591"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="4Ah-Uw-jCL" firstAttribute="top" secondItem="efz-Mg-yVp" secondAttribute="topMargin" id="MIV-Dg-PNd"/>
+                            <constraint firstItem="4Ah-Uw-jCL" firstAttribute="leading" secondItem="efz-Mg-yVp" secondAttribute="leadingMargin" id="NsA-Te-k2r"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="4Ah-Uw-jCL" secondAttribute="trailing" id="Qlz-9S-nCZ"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="4Ah-Uw-jCL" secondAttribute="bottom" id="UQ2-2l-7P6"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Wss-v5-f5Y"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="1Mg-fH-JVh"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="biy-9J-T0Y" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1653.5999999999999" y="91.304347826086968"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="IGl-up-pU7">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Ygh-O3-N5G" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="gbn-wE-sNR">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="56"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="fso-1S-nJg" kind="relationship" relationship="rootViewController" id="glq-63-ROj"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UQN-QH-u0c" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="714.39999999999998" y="91.304347826086968"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="flower_ Highheels" width="1170" height="967"/>
+    </resources>
+</document>
